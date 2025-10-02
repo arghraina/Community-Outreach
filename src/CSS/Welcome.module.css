@@ -1,0 +1,16 @@
+.class1{
+    height: 500px;
+    width: 500px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.para1{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}

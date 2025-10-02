@@ -1,0 +1,54 @@
+#container{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150vh; /* keep your original width */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(63, 176, 46); /* same green */
+    opacity: 0.5; /* only background is transparent */
+    z-index: 0; /* behind content */
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#container img{
+    margin: auto;
+    width: 100%;
+    height: 60vh;
+    z-index: 2;
+    opacity: 1;
+}
+.containerLocation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.locHead{
+    color: rgb(11, 5, 87);
+    font-size: 40px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.locULcont{
+    display: flex;
+    z-index: 2;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

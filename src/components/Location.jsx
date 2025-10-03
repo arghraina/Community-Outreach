@@ -44,7 +44,7 @@ const Location = () => {
                                     <h3>{vendor.name}</h3>
                                     <p>{vendor.description}</p>
                                     <p><span style={{textDecoration:"underline",color:"aquamarine" , fontWeight:"bolder", fontSize: "18px"}}>Location:</span> {vendor.location}<br></br><a style={{color: "blue" , textDecoration:"underline"}}href={`${mapsUrl}`} target="_blank">{`${mapsUrl}`}</a></p>
-                                    <p style={{textDecoration:"underline",color:"#e2ff7f" , fontWeight:"bolder", fontSize: "18px"}}>Search to get Directions:</p>
+                                    <p style={{textDecoration:"underline",color:"#e2ff7f" , fontWeight:"bolder", fontSize: "18px"}}>Scan to get Directions:</p>
                                     {mapsUrl && <QRCodeCanvas value={mapsUrl} size={128} />}
                                     <hr></hr>
                                 </li>
